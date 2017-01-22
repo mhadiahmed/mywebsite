@@ -1,0 +1,202 @@
+/* star rolse */
+*{box-sizing: border-box;}
+.container{width:1170px;margin:0 auto;}
+.clear-fx{clear: both;}
+/* end rolse */
+
+/* star header */
+.header .slider{background-image: url(../images/mj.jpg);
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+height: 700px;}/* css3 */
+
+.header .slider .intro{
+    text-align: center;
+    color:black;
+    padding-top:200px;
+}
+
+.header .slider .intro h2{
+    margin: 0 auto;
+    width:600px; 
+    font-size:50px;
+    border-top:4px solid #333;
+    border-bottom:4px solid #333;
+    padding: 5px 0;}
+.header .slider .intro button{background: none;margin-top: 30px; font-size: 20px;border:2px solid #333;font-weight: bold; padding: 10px 30px; }
+.header .navbar{background-color:#252F31;color:#FFF;overflow: hidden;}
+.header .navbar h2{float: left;}
+.header .navbar h2 span{color:#2ecc71;}
+.header .navbar ul{list-style: none; padding-left: 0; float:right;overflow: hidden;}
+.header .navbar ul li{ float: left; padding: 10px;}
+.header .navbar ul li a{color:#fff;text-decoration:none;}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:#2a8253;}
+/* end header */
+
+/* star features */
+.features{
+    overflow: hidden;
+    padding-top:40px; 
+    padding-bottom:50px; 
+}
+.features .feat{
+    float:left;
+    width: 33.33333%;
+    height: 150px;}
+.features .feat h2{
+    color:#555;
+}
+.features .feat p{line-height: 1.7;color:#888;}
+/* end features */
+
+/* star about-me */
+.about-me{background-color:#f2f2f1; overflow: hidden;}
+.about-me .image{width:40%;float: left;}
+.about-me .image img{width:100%;}
+.about-me .info{width:60%;float: left;}
+.about-me .info h2{margin:40px 0 20px 40px;color:#555;}
+.about-me .info > p{margin: 0 0 10px 40px;}
+.about-me .info > p:last-of-type{margin-top:30px;}
+.about-me .info  p{line-height: 1.7;color:#666;}
+.about-me .info .hobbies{overflow: hidden;margin: 20px 0 0 40px;}
+.about-me .info .hobbies .content{float:left;width:50%;min-height: 100px;overflow: hidden;}
+.about-me .info .hobbies .content h3{color:#555;}
+.about-me .info .hobbies .content .ico{float:left;width:12%;margin-right:5% }
+.about-me .info .hobbies .content .ico i{margin-top:30px;color:#2ecc71;}
+.about-me .info .hobbies .content .text{float:left;width:83%;}
+/* end about-me */
+
+/* star my-skills*/
+
+.my-skills{
+    overflow: hidden;
+   padding-top:30px;
+    padding-bottom:50px;
+}
+.my-skills .skills,
+.my-skills .progress{
+    width:50%;
+    float: left;
+}
+.my-skills .skills h2{margin:40px 0 20px 40px;color:#555;}
+.my-skills .skills > p{margin: 0 0 10px 40px;line-height: 1.7;color:#666;}
+.my-skills .skills > p:last-of-type{margin-top:30px;}
+.my-skills .skills button{margin-left:40px;margin-top:20px;}
+.my-skills .progress .tic{margin:30px 0 0 50px;}
+.my-skills .progress .tic h3{color:#555}
+.my-skills .progress .tic div{background-color: #f2f2f1;height: 25px;}
+.my-skills .progress .tic div span{background-color: #2ecc71;height: 25px;display:block;
+text-align: right;line-height: 25px;color:#fff;font-weight:bold;}
+/*end my-skills*/
+
+/* star resume */
+
+.resume{background-color:#f2f2f1; 
+   overflow: hidden;
+   padding-top:50px;
+    padding-bottom:70px;
+    text-align: center;
+}
+.resume h2{font-weight:bold;color:#666;}
+.resume p{color:#666;line-height: 1.7;padding: 0 40px}
+.resume button{margin-top:20px;}
+
+/* end resume */
+
+
+/* star my-education*/
+
+.my-education{
+    overflow: hidden;
+   padding-top:30px;  
+}
+.my-education .man{  width:50%;float: left;margin-right:5%;}
+
+
+.my-education .man h2{margin:40px 0 20px 40px;color:#555;}
+.my-education .man > p{margin: 0 0 10px 40px;line-height: 1.7;color:#666;}
+.my-education .man > p:last-of-type{margin-top:30px;}
+.my-education .exp{
+    width:45%;
+    float: left;
+}
+.my-education .exp h3{margin-top: 80px;margin-bottom:8px;}
+.my-education .exp span{display:block;margin-bottom:8px;}
+.my-education .exp span:first-of-type{color:#999}
+.my-education .exp span:last-of-type{background-color:#2ecc71;display:inline-block;padding:4px 10px;}
+.my-education .exp hr{margin: 20px 0;background-color:#999;height:1px;border:0;}
+.my-education .exp p{line-height: 1.7;color:#555;}
+/*end my-education*/
+
+/* star testimonials */
+
+.testimonials{background-color:#f2f2f1; overflow: hidden;padding-top:50px;
+padding-bottom:50px; text-align: center;}
+.testimonials q{
+    line-height: 1.7;
+    font-size:18pt;
+    color:#666;
+    font-style:italic;
+}
+.testimonials h3{color:#777;}
+.testimonials ul{list-style:none;padding-left: 0;text-align:center;margin-top: 30px;}
+.testimonials ul li{width:15px;height: 15px;border:2px solid #2ecc71;
+display: inline-block;cursor: pointer;}
+.testimonials ul li.active,.testimonials ul li:hover{background-color:#2ecc71;}
+
+/* end testimonials */
+
+
+/* star portfolio */
+.portfolio{padding-top: 50px;padding-bottom: 70px;text-align: center;}
+.portfolio h2{color:#777;}
+.portfolio p{line-height: 1.7;color:#666;margin-bottom:30px;}
+.portfolio .our-work{overflow: hidden;}
+.portfolio .our-work > div{float:left;width:33.333333%;margin-bottom: 10px;}
+.portfolio .our-work > div img{width:92%;height: 360px; margin: 10px;}
+/* end portfolio */
+
+
+
+/* star contact-me */
+
+.contact{background-color: #252e30;overflow: hidden;padding-top: 50px;padding-bottom:70px;}
+.contact .info{width:50%;float:left;margin-right:5%;}
+.contact h2{color:#fff;margin-left:40px;}
+.contact p{color:#5f6364;margin-left:40px;line-height: 1.7;}
+.contact p strong{color:#fff;}
+.contact .form{width:45%;float:left;}
+.contact .form label{color:#fff;display:block;margin-bottom:10px 0;}
+.contact .form input[type="text"]{background-color:#4b5557;color:#fff;
+padding:10px;border:0;width:80%;margin-bottom:10px;}
+.contact .form textarea{background-color:#4b5557;color:#fff;
+padding:10px;border:0;width:80%;margin-bottom:10px;height:300px;}
+.contact .form input[type="submit"]{
+    background-color:#191e22;
+    color:#fff;
+    padding: 10px 20px;
+    border:0;
+    margin-top:10px;
+}
+
+/* end contact-me */
+
+
+/* star footer */
+
+.footer{background-color: #191f21;
+padding: 20px 0;
+color:#5f6364;
+text-align: center}
+.footer ul{list-style:none;padding-left:0;}
+.footer ul li{display:inline-block;}
+.footer ul li i:hover{color:#fff;cursor: pointer;}
+/* end footer */
+
+/* star my framework */
+
+.my-button{background: none;border:3px solid #2ecc71;color:#2ecc71;padding: 10px 30px;font-weight:bold;}
+
+/* end my framework */
